@@ -1,0 +1,25 @@
+.first{
+    background-color: cadetblue;
+    height:600px;
+    width: 400px;
+    margin-left: 40px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow:5px 5px 5px 5px black;
+    }
+
+.second{
+    height:300px;
+    width:200px;
+    float:left;
+    
+}
+.second img{
+    height:150px;
+    width:200px;
+    border-radius: 15px 15px 15px 15px;
+    
+    
+}
+.icon{
+    float:left;
+}

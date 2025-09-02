@@ -1,0 +1,160 @@
+<!-- <html>
+    <head>
+        <title>Card Rotate</title>
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .container{
+                height:80%;
+                width:60%;
+            }
+            .subcontainer1{
+                height:47%;
+                width:100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .subcontainer2{
+                height:47%;
+                width:100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .card1{
+                height:80%;
+                width:25%;
+                background-image: url("./card1.jpg");
+                border: 2px solid black;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            .card2{
+                height:80%;
+                width:25%;
+                background-image: url("./card2.jpg");
+                border: 2px solid black;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            .card3{
+                height:80%;
+                width:25%;
+                background-image: url("./card3.jpg");
+                border: 2px solid black;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            .card4{
+                height:80%;
+                width:25%;
+                background-image: url("./card4.jpg");
+                border: 2px solid black;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            .card5{
+                height:80%;
+                width:25%;
+                background-image: url("./card5.jpg");
+                border: 2px solid black;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            .card6{
+                height:80%;
+                width:25%;
+                background-image: url("./card6.jpg");
+                border: 2px solid black;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            .button{
+                height:4%;
+                width:100%;
+                display: flex;
+                justify-content:space-around;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Card Rotate</h1>
+        <div class="container">
+            <div class="subcontainer1">
+                <div class="card1" id="card1"></div>
+                <div class="card2" id="card2"></div>
+                <div class="card3" id="card3"></div>
+            </div>
+            <div class="subcontainer2">
+                <div class="card4" id="card4"></div>
+                <div class="card5" id="card5"></div>
+                <div class="card6" id="card6"></div>
+            </div>
+            <div class="button">
+                <button id="left-btn">Left</button>
+                <button id="right-btn">Right</button>
+                </div>
+        </div>
+        <script src="./cardrotate.js"></script>
+    </body>
+</html> -->
+
+
+<html>
+    <head>
+        <title>Rotating Random Image</title>
+    </head>
+    <style>
+        #imgCont{
+            height: 100%;
+            width: 100%;
+            background-color:white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+             background-image:url("./dice.img") ; 
+            background-size: 100% ;
+        }
+        #cont1{
+            height: 40%;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+        }
+        #cont2{
+            height: 40%;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+        }
+        #buttonCont{
+            display: flex;
+            justify-content: space-between;
+        }
+
+    </style>
+    <body>
+        <div id="imgCont">
+             <div id="cont1">
+                <img src="./card1.jpg" style="height: 100%; width: 20%;" id="img1"/>
+                <img src="./card2.jpg" style="height: 100%; width: 20%;" id="img2"/>
+                <img src="./card3.jpg" style="height: 100%; width: 20%;" id="img3"/>
+             </div>
+             <div id="cont2">
+                <img src="./card4.jpg" style="height: 100%; width: 20%;"id="img4"/>
+                <img src="./card5.jpg" style="height: 100%; width: 20%;"id="img5"/>
+                <img src="./card6.jpg" style="height: 100%; width: 20%;"id="img6"/>
+             </div>
+             <div id="buttonCont">
+                 <button onclick="left()" style="height: 40px; width: 80px; border-radius: 12px;">Left</button>
+                 <button onclick="right()" style="height: 40px; width: 80px; border-radius: 12px;">Right</button>
+             </div>
+        </div>
+        <script src="./cardrotate.js"></script>
+    </body>
+</html>

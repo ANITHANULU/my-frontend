@@ -1,0 +1,37 @@
+fieldset{
+    border-radius: 4px;
+    height:750px;
+    width:500px;
+    margin:500px;
+    border:2px solid black;
+    background-image: url(./WhatsApp\ Image\ 2024-11-24\ at\ 14.13.12_3161a61a.jpg);
+    box-shadow:  4px 4px rgb(82, 79, 79);
+     
+}
+    body{
+    color:black;
+    background-color: white;
+    
+}
+label{
+    color:black;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+h4{
+    color:black;
+}
+b{  
+    border:1px solid black;
+    text-align: center;
+    color:white;
+    background-color: black;
+    border-radius: 4px;
+    
+
+}
+b:hover{
+    color:blue;
+    background-color: aqua;
+}

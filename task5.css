@@ -1,0 +1,141 @@
+.one{
+    height:100vh;
+    width:100%;
+    background-color: rgb(185, 231, 233);
+}
+h1{
+    text-align: center;
+}
+.home{
+    width:50px;
+    height:20px;
+    border:2px solid black;
+    justify-content:center;
+    background-color: brown;
+}
+.two{
+    color:white;
+    height:8vh;
+    width:100%;
+    background-color:turquoise;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+
+}
+.home:hover{
+    color:white;
+    height:30px;
+    width:60px;
+    background-color:red;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+
+}
+.six{
+    color:white;
+    height:8vh;
+    width:100%;
+    background-color:turquoise;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+
+.container2{
+    height: 520px;
+    width:100%;
+
+    display: flex;
+    flex-direction: row;
+}
+ .Aside{
+    height:500px;
+    width:500px;
+    border:2px solid rgb(11, 230, 11); ;
+    color:white;
+    background-color:rgb(179, 225, 179);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.home1{
+    height:30px;
+    width:80%;
+    background-color:rgb(182, 129, 209);
+    border:2px solid black;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    color:black;
+
+
+}
+.home1:hover{
+    height:40px;
+    width:82%;
+    background-color:rgb(223, 0, 223);
+    border:2px solid black;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    color:black;
+
+
+}
+.content{
+    height:240px;
+    width:1000px;
+    border:2px solid rgb(10, 174, 245);;
+    color:black;
+    background-color:rgb(10, 174, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+    
+}
+
+    .footer{
+    height:70px;
+    width:1490px;
+    border:2px solid darkgoldenrod;
+    background-color:darkgoldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top:0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    display:flex;
+    justify-content:space-around;
+}
+
+.footer img{
+    width:50px;
+    height:50px;
+}
+.footer img:hover{
+    width:60px;
+    height:60px;
+}
+
+

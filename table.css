@@ -1,0 +1,13 @@
+table,th,td{
+    border:1px slod black;
+    border-collapse: collapse;
+}
+th{
+    color:brown;
+    background-color: aqua;
+
+}
+td{
+    color:red;
+    background-color: antiquewhite;
+}

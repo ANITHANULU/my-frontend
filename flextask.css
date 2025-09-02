@@ -1,0 +1,28 @@
+.id{
+    border:2px solid black;
+    height:100vh;
+    width:100%;
+    background-color: pink;
+}
+.id1{
+    text-align: center;
+    border:2px solid black;
+    height:20px;
+    width:100px;
+    background-color: aquamarine;
+}
+.id2{
+    border:1px solid black;
+    font-size: 10px;
+    font-weight: 50px;
+    text-align: center;
+
+}
+.id3{
+    height: 50px;
+    width:100%;
+    border:2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

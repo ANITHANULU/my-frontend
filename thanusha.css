@@ -1,0 +1,81 @@
+h1{
+    text-align: center;
+    border-width: 5px;
+    /* border:5px solid black; */
+    text-shadow: 3px ;
+    color:rgb(7, 67, 7);
+    font-weight:bolder;
+    /* background-color: black; */
+    font-size: 50px;
+    /* text-shadow: 2px 3px 4px; */
+    padding-top:20px;
+}
+.container{
+    height:550px;
+    width:350px;
+    background-color:rgb(7, 67, 7);
+    border:2px solid black;
+    border-radius: 10%;
+    margin:70px 0px 0px 580px;
+    color:white;
+    
+}
+/* .container1{
+    height:550px;
+    width:400px;
+    background-color:white;
+    border:2px solid black;
+    border-radius: 10%;
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+        
+       
+} */
+body{
+   
+    background-color: 0080FE;
+}
+img{
+    margin:20px 50px 0px 25px;
+    border-radius: 15%;
+    height:250px;
+    width:300px;
+    border:2px solid rgb(7, 67, 7);
+  
+}
+.Brand{
+   
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+.cost{
+    padding-left: 150px;
+    font-size:20px;
+   
+}
+.rating{
+    padding-left: 135px;
+    font-size:20px;
+}
+.description{
+    
+    padding-left:20px
+}
+.cart{
+    
+    border-style: solid;
+  border-width: 2px;
+  /* margin-right: 120px; */
+   margin-left: 110px;
+   color:rgb(7, 67, 7);
+   background-color: white;
+   border-radius: 10px;
+   font-size: 25px;
+   font-weight: bolder;
+   cursor: pointer;
+   padding: 3px;
+   
+
+}

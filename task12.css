@@ -1,0 +1,478 @@
+.container{
+    height:100vh;
+    width:100%;
+}
+ .header{
+    height:10vh;
+    width:100%;
+    display:flex;
+} 
+.UMS{
+    height:10vh;
+    width:30%;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+}
+.UMS i{
+    margin-left: 40px;
+    font-size: 20px;
+}
+.UMS:hover{
+    background-color: grey;
+}
+.home{
+    height:10vh;
+    width:12%;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     gap: 10px;
+     border: 1px solid black;
+     border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+}
+.home:hover{
+    background-color: grey;
+}
+.timetable{
+    height:10vh;
+    width:12%;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+}
+.timetable:hover{
+    background-color: grey;
+}
+.examination{
+    height:10vh;
+    width:12%;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+}
+.examination:hover{
+    background-color: grey;
+}
+.changepassword{
+    height:10vh;
+    width:12%;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+}
+.changepassword:hover{
+     background-color: grey;
+}
+.logout{
+    height:10vh;
+    width:12%;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+}
+.logout:hover{
+    background-color: grey;
+}
+.icon{
+    height:10vh;
+    width:11%;
+    background-color:white;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+}
+.icon:hover{
+    background-color: grey;
+}
+.container2{
+    height:90vh;
+    width:100%;
+    background-color: blue;
+    display: flex;
+}
+.alex{
+    width:15%;
+    height:90vh;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+}
+.robo{
+    width:100%;
+    height:30vh;
+    background-color: white;
+    display:flex;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+}
+.image{
+    height:30vh;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    width:100px;
+    height:100px;
+    border-radius: 70px;
+    margin-left: 20px;
+}
+.text{
+    height:30vh;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.alex h3{
+    padding-left: 10px;
+}
+.alex p{
+    padding-left: 10px;
+    padding-top: 0px;
+}
+.attendance{
+    height:90vh;
+    width:70%;
+    background-color:white;
+    border: 1px solid black;
+}
+.attendance h1{
+    color:black;
+}
+.attendance h2{
+    color:black;
+}
+.attendance1{
+    height:50vh;
+    width:100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.one{
+    width:19%;
+    height:50vh;
+    background-color:grey;
+    border-radius: 20px;
+}
+.one img{
+    height:30px;
+    width:30px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.one h4{
+    padding-left: 20px;
+}
+.one h3{
+    padding-left: 20px;
+}
+.one p{
+    padding-left: 30px;
+}
+.circle1{
+    height:100px;
+    width:100px;
+    border: 10px solid rgb(97, 97, 215);
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.two{
+    width:19%;
+    height:50vh;
+    background-color:grey;
+    border-radius: 20px;
+}
+.two img{
+    height:30px;
+    width:30px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.two h4{
+    padding-left: 20px;
+}
+.two h3{
+    padding-left: 20px;
+}
+.circle2{
+    height:100px;
+    width:100px;
+    border: 10px solid rgb(97, 97, 215);
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.two p{
+    padding-left: 50px;
+}
+.three{
+    width:19%;
+    height:50vh;
+    background-color:grey;
+    border-radius: 20px;
+}
+.three img{
+    height:30px;
+    width:30px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.three h4{
+    padding-left: 20px;
+}
+.three h3{
+    padding-left: 20px;
+}
+.three p{
+    padding-left: 50px;
+}
+.circle3{
+    height:100px;
+    width:100px;
+    border: 10px solid rgb(97, 97, 215);
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.four{
+    width:19%;
+    height:50vh;
+    background-color: grey;
+    border-radius: 20px;
+    opacity: 1.0;
+}
+.four img{
+    height:30px;
+    width:30px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.four h4{
+    padding-left: 20px;
+}
+.four h3{
+    padding-left: 20px;
+}
+.four p{
+    padding-left: 50px;
+}
+.circle4{
+    height:100px;
+    width:100px;
+    border: 10px solid rgb(97, 97, 215);
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.five{
+    width:19%;
+    height:50vh;
+    background-color: grey;
+    border-radius: 20px;
+}
+.five img{
+    height:30px;
+    width:30px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.five h4{
+    padding-left: 20px;
+}
+.five h3{
+    padding-left: 20px;
+}
+.five p{
+    padding-left: 50px;
+}
+.circle5{
+    height:100px;
+    width:100px;
+    border: 10px solid rgb(97, 97, 215);
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+table,th,td{
+    border-collapse: collapse;
+    border: 2px solid black 15px;
+    padding:10px 5px 5px 170px;
+    border-radius:30px 30px 30px 30px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: white;
+    /* text-align: center; */
+}
+.announcement{
+    width:15%;
+    height:90vh;
+    background-color: white;
+    border: 1px solid black;
+}
+.announcement1{
+    width:90%;
+    height:30vh;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 8%;
+}
+.announcement1 p{
+    padding-left: 10px;
+}
+.teacher{
+    width:100%;
+    height:30vh;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.teacher1{
+    height:13vh;
+    width:100%;
+    background-color:rgb(197, 182, 197);
+     display: flex;
+     border: 1px solid black;
+     border-radius: 20px;
+}
+.photo1{
+    height:13vh;
+    width:40%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo1 img{
+    width:60%;
+    height:7vh;
+    border-radius: 50px;
+}
+.professor{
+    height:13vh;
+    width:60%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.teacher2{
+    height:13vh;
+    width:100%;
+    background-color:darkgreen;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.photo2{
+    height:13vh;
+    width:40%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo2 img{
+    width:60%;
+    height:7vh;
+    border-radius: 50px;
+}
+.lisa{
+    height:13vh;
+    width:60%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.teacher3{
+     height:13vh;
+    width:100%;
+    background-color:darkorange;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.photo3{
+    height:13vh;
+    width:40%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo3 img{
+    width:60%;
+    height:7vh;
+    border-radius: 50px;
+}
+.himanshu{
+    height:13vh;
+    width:60%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+

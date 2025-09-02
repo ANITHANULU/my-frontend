@@ -1,0 +1,11 @@
+name=" Aditya ";
+name1="university";
+console.log(name[1]);
+console.log(name.length);
+console.log(name.toUpperCase());
+console.log(name.toLowerCase());
+console.log(name.concat(name1));
+console.log(name.trim());
+console.log(name.trimStart());
+console.log(name.trimEnd());
+console.log(name.slice(2,4));

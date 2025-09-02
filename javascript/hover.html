@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>my hover</title>
+        <style>
+            body{
+                background-color: aqua;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .mouse{
+                height:200px;
+                width:200px;
+                background-color: brown;
+                border:2px solid black;
+            }
+            .mouse:hover{
+                background-color: aquamarine;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My page</h1>
+        <!-- <div class="mouse" id="mouse" onmouseover="over()" onmouseleave="leave()">Thadha</div> -->
+         <div class="mouse" id="mouse" onmousedown="down()" onmouseup="up()">Thadha</div>
+        <script src="./hover.js"></script>
+    </body>
+</html>

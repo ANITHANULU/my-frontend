@@ -1,0 +1,14 @@
+.borderone{
+    border-style: dotted;
+    border-width:10px ;
+    border-color: rgb(151, 9, 245);
+}
+.bordertwo{
+    width: 100px;
+    border:9px solid blue;
+    border-radius: 15px 0px 0px 20px;
+}
+p{
+    border:10px solid green;
+    padding:10px;
+}

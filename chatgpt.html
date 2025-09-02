@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sun Hover Effect</title>
+    <style>
+        body {
+            background-color: white;
+            transition: background-color 0.5s ease;
+        }
+
+        .sun {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            border-radius: 50%;
+            position: absolute;
+            top: 50px;
+            right: 100px;
+            box-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sun"></div>
+
+    <script>
+        const sun = document.querySelector(".sun");
+        const body = document.body;
+
+        sun.addEventListener("mouseover", () => {
+            body.style.backgroundColor = "black"; // Change to night mode
+        });
+
+        sun.addEventListener("mouseout", () => {
+            body.style.backgroundColor = "white"; // Change back to day mode
+        });
+    </script>
+
+</body>
+</html>

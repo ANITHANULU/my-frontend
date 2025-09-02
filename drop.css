@@ -1,0 +1,20 @@
+body{
+    background-color: aquamarine;
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+}
+.container{
+    position:relative;
+    display: inline-block;
+    height: 100px;
+}
+.subcontainer{
+    color:red;
+    font-size: 30px;
+   
+}
+.innercontainer{
+    position: absolute;
+    
+}

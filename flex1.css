@@ -1,0 +1,25 @@
+.one{
+    height:100vh;
+    width:100%;
+    background-color: burlywood;
+    display:flex;
+    text-align: center;
+    align-items:start;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+
+}
+/*body{
+    padding:0;
+    margin:0;
+}*/
+.two{
+    border:2px solid black;
+    width:100px;
+    height:100px;
+    background-color: brown;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+

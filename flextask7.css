@@ -1,0 +1,99 @@
+.container{
+    height:100vh;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+}
+.subcontainer{
+    height:100vh;
+    width:20%;
+}
+.one{
+    height:50vh;
+    width:100%;
+    background-color: brown;
+}
+.two{
+    height:50vh;
+    width:100%;
+    background-color:grey;
+}
+.subcontainer2{
+    height:100vh;
+    width:80%;
+    display:flex;
+    flex-direction: column;
+}
+.innercontainer{
+    height:100vh;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+}
+.three{
+    height:33vh;
+    width:50%;
+    background-color: aquamarine;
+}
+.four{
+    height:33vh;
+    width:50%;
+    background-color:burlywood;
+}
+.innercontainer1{
+    height:67vh;
+    width:80%;
+    display:flex;
+    flex-direction: row;
+}
+.subinnercontainer{
+    height:67vh;
+    width:80%;
+    display:flex;
+    flex-direction: column;
+}
+.subinnercontainer2{
+    height:67vh;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+}
+.five{
+    height:33vh;
+    width:70%;
+    background-color:blueviolet;
+}
+.six{
+    height:33vh;
+    width:100%;
+    background-color:blanchedalmond;
+}
+.subinnercontainer3{
+    height:69vh;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+}
+.seven{
+    height:34vh;
+    width:100%;
+    background-color:cadetblue;
+}
+.eight{
+    height:34vh;
+    width:80%;
+    background-color:pink;
+}
+.ninecontainer{
+    height:20vh;
+    width:20%;
+}
+.nine{
+    height:67vh;
+    width:225%;
+    background-color: red;
+
+}
+
+
+

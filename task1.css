@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    background-color:bisque;
+}
+.container{
+   border:2px solid black;
+   width: 300px;
+   height: 100px;
+   border-radius: 20px;
+   text-shadow: 2px ;
+   text-align: center;
+}
+.container{
+    height: 700px;
+    width:500px;
+    background-color: skyblue;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin: 70px 0px 0px 580px;
+    color:rgb(233, 6, 6) ;
+}
+img{
+    margin:20px 50px 0px 25px;
+    border-radius: 15%;
+    height: 250px;
+    width:300px;
+    border:2px solid rgb(7,67,7);
+}
+.Brand{
+    font-size:25px ;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.Cost{
+    padding-left: 0px;
+    font-size: 20px;
+}
+.Rating{
+    padding-left:0px ;
+    font-size: 20px;
+}
+.description{
+    padding-left: 20px;
+}
+.cart{
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 0px;
+    color:rgb(7,67,7);
+    background-color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor:pointer;
+    padding:3px;
+
+}

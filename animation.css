@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.container1{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    animation-name: one;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.container2{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    animation-name: two;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    
+}
+.container3{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    animation-name: three;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: radial-gradient(pink,orange,yellow,blue,green);
+
+}
+@keyframes one{
+    from{
+        width:200px;
+        height:200px;
+        background-color: aquamarine;
+    }
+    to{
+        width:100px;
+        height:100px;
+        background-color:red;
+    }
+}
+@keyframes two{
+    20%{
+        background-color: blanchedalmond;
+        background-color: radial-gradient(pink,orange,yellow,blue,green);
+    }
+    30%{
+        background-color: cadetblue;
+        border-radius: 100px;
+    }
+    45%{
+        background-color: darkblue;
+    }
+    5%{
+        background-color: greenyellow;
+        background-color: radial-gradient(pink,orange,yellow,blue,green;
+    }
+}
+@keyframes three{
+    from{
+        width:200px;
+        height:200px;
+        background-color: aquamarine;
+        background-color: radial-gradient(pink,orange,yellow,blue,green);
+    }
+    to{
+        width:100px;
+        height:100px;
+        background-color:red;
+    }
+}

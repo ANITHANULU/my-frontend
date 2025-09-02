@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Filter</title>
+    <link rel="stylesheet" href="./project.css">
+</head>
+<body>
+    <h1>E-Commerce Product Filter</h1>
+
+    <!-- Filter Options -->
+    <div class="filter-container">
+        <input type="text" id="searchBar" placeholder="Search products..." onkeyup="filterProducts()">
+
+        <select id="categoryFilter" onchange="filterProducts()">
+            <option value="">All Categories</option>
+            <option value="men's clothing">Men's Clothing</option>
+            <option value="women's clothing">Women's Clothing</option>
+            <option value="electronics">Electronics</option>
+            <option value="jewelery">Jewelry</option>
+        </select>
+
+        <input type="range" id="priceRange" min="0" max="1000" step="10" oninput="updatePrice()" />
+        <span id="priceValue">Max Price: $1000</span>
+    </div>
+
+    <!-- Product List -->
+    <div class="product-list" id="productList"></div>
+
+    <script src="./project.js"></script>
+</body>
+</html>

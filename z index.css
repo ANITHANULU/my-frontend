@@ -1,0 +1,92 @@
+.first{
+    border: 2px solid rgb(235, 15, 15);
+    height: 200px;
+    width:200px;
+    background-color: aquamarine;
+    position: absolute;
+    top:80px;
+    right:80px;
+    border-radius: 10px;
+}
+.first:hover{
+    border: 2px solid rgb(235, 15, 15);
+    height: 220px;
+    width:220px;
+    background-color: aquamarine;
+    position: absolute;
+    top:80px;
+    right:80px;
+    border-radius: 10px;
+}
+.second{
+    border: 2px solid rgb(231, 87, 10);
+    height: 200px;
+    width:200px;
+    background-color: rgb(127, 234, 255);
+    position: absolute;
+    top:60px;
+    right:60px;
+    z-index: 2;
+    border-radius:10px;
+    
+    
+}
+.second:hover{
+    border: 2px solid rgb(231, 87, 10);
+    height: 220px;
+    width:220px;
+    background-color: rgb(127, 234, 255);
+    position: absolute;
+    top:60px;
+    right:60px;
+    z-index: 2;
+    border-radius:10px;
+}
+.third{
+    border: 2px solid rgb(240, 5, 5);
+    height: 200px;
+    width:200px;
+    background-color: rgb(255, 127, 246);
+    position: absolute;
+    top:40px;
+    right:40px;
+    z-index: 4;
+    border-radius: 10px;
+    
+    
+}
+.third:hover{
+    border: 2px solid rgb(240, 5, 5);
+    height: 220px;
+    width:220px;
+    background-color: rgb(255, 127, 246);
+    position: absolute;
+    top:40px;
+    right:40px;
+    z-index: 4;
+    border-radius: 10px;
+    
+    
+}
+.fourth{
+    border: 2px solid rgb(129, 4, 4);
+    height: 200px;
+    width:200px;
+    background-color: rgb(255, 127, 127);
+    position: absolute;
+    top:20px;
+    right:20px;
+    z-index: 6;  
+    border-radius: 10px;
+}
+.fourth:hover{
+    border: 2px solid rgb(129, 4, 4);
+    height: 220px;
+    width:220px;
+    background-color: rgb(255, 127, 127);
+    position: absolute;
+    top:20px;
+    right:20px;
+    z-index: 6;  
+    border-radius: 10px;
+}

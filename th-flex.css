@@ -1,0 +1,93 @@
+h1{
+    
+    font-size: 50px;
+    font-weight: 700;  
+    display:flex;
+    justify-content: center;  
+    margin-top: 0px;
+ } 
+.container{
+    height:100vh;
+    width:100%;
+    border: 2px solid black;
+    background-color:cyan;
+    flex-wrap: wrap; 
+}
+.container1{
+    border: 2px solid black;
+    display:flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    height:50px;
+    width:1490px;
+    background-color: brown;
+    margin:5px;
+}
+.home:hover{
+background-color: blue;
+color:white;
+}
+    
+   
+ .home{
+    height:35px;
+    width:80px;
+    border:2px solid white;
+    background-color: white;
+    color:brown;
+    font-size: 20px; 
+    font-weight: 800;
+    border-radius: 7px; 
+    display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.container2{
+    height: 520px;
+    width:100%;
+
+    display: flex;
+    flex-direction: row;
+}
+ .Aside{
+    height:500px;
+    width:400px;
+    border:2px solid black;
+    color:white;
+    background-color:blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+.content{
+    height:240px;
+    width:1200px;
+    border:2px solid black;
+    color:white;
+    background-color: darkgoldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+.footer{
+    height:70px;
+    width:1490px;
+    border:2px solid black;
+    background-color: darkgoldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top:0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}

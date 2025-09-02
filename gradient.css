@@ -1,0 +1,21 @@
+.container{
+    border: 2px solid black;
+    width:200px;
+    height:250px;
+    background: linear-gradient(to  right,rgb(240, 110, 4),white,green);
+    margin: 10px;
+}
+.container2{
+    border: 2px solid black;
+    width:200px;
+    height:250px;
+    background-image: radial-gradient(blue,rgb(238, 8, 185),green,yellow,aqua);
+    margin: 10px;
+}
+.container3{
+    border: 2px solid black;
+    width:200px;
+    height:250px;
+    background: radial-gradient(black,blue,white,black 60%);
+    margin: 10px;
+}

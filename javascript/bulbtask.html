@@ -1,0 +1,125 @@
+<!-- <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb Control</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .bulb {
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            background-color: gray;
+        }
+        .on {
+            background-color: yellow;
+            box-shadow: 0 0 10px yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bulb Switch Control</h1>
+    
+    <div>
+        <div id="bulb1" class="bulb"></div>
+        <div id="bulb2" class="bulb"></div>
+        <div id="bulb3" class="bulb"></div>
+    </div>
+
+    <div>
+        <button onclick="turnOn(1)">Turn On Bulb 1</button>
+        <button onclick="turnOn(2)">Turn On Bulb 2</button>
+        <button onclick="turnOn(3)">Turn On Bulb 3</button>
+    </div>
+
+    <script>
+        function turnOn(bulbNumber) {
+            // Turn off all bulbs
+            document.getElementById("bulb1").classList.remove("on");
+            document.getElementById("bulb2").classList.remove("on");
+            document.getElementById("bulb3").classList.remove("on");
+
+            // Turn on the selected bulb
+            document.getElementById("bulb" + bulbNumber).classList.add("on");
+        }
+    </script>
+</body>
+</html> -->
+
+<html>
+    <head>
+        <title>Bulb task</title>
+        <style>
+            body{
+                background-color: aqua;
+                height:100%;
+                width:100%;
+                display: flex;
+                text-align: center;
+                flex-direction:column ;
+                position: relative;
+            }
+            body h1{
+                text-align: center;
+            }
+            .bulb1{
+                height:10%;
+                width:5%;
+                /* background-color: blue; */
+                border-radius: 50%;
+                display: flex;
+                top:10%;
+                left:38%;
+                position: absolute;
+                border:2px solid black;
+            }
+            .bulb2{
+                height:10%;
+                width:5%;
+                /* background-color: blue; */
+                border-radius:50%;
+                position: absolute;
+                top:10%;
+                left:48%;
+                border:2px solid black;
+            }
+            .bulb3{
+                height:10%;
+                width:5%;
+                /* background-color: blue; */
+                border-radius: 50%;
+                position: absolute;
+                top:10%;
+                left:58%;
+                border:2px solid black;
+            }
+            .button{
+                position: absolute;
+                top:30%;
+                left:45%;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+        <h1>Bulb</h1>
+        <p class="bulb1" id="bulb1"></p>
+        <p class="bulb2" id="bulb2"></p>
+        <p class="bulb3" id="bulb3"></p></div>
+        <div class="button">
+        <button onclick="fun('red')">Button1</button>
+        <button onclick="fun('yellow')">Button2</button>
+        <button onclick="fun('green')">Button3</button>
+        </div>
+        <script src="./bulbtask.js"></script>
+    </body>
+</html> 
+
+
+

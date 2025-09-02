@@ -1,0 +1,17 @@
+#forid{
+    color:blue;
+    background-color:bisque;
+    margin-left: 30px;
+    text-align:center;
+    font-size: large;
+}
+.forclass{
+    color:brown;
+    background-color: rgb(23, 106, 180);
+    font-weight: 200;
+}
+#forid2{
+    color:blueviolet;
+    background-color:azure;
+
+}

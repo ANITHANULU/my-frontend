@@ -1,0 +1,362 @@
+body{
+    height:100%;
+    width:100%;
+    background-color:white;
+}
+.container1{
+    height:70%;
+    width:100%;
+    background-color: white;
+    display:flex;
+    position: relative;
+}
+.one{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:100%;
+    right:100%;
+}
+.two{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:80%;
+    right:10%;
+}
+.three{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:75%;
+    right:16%;
+}
+.four{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:74%;
+    right:22%;
+}
+.five{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:79%;
+    right:27%;
+}
+.six{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:79%;
+    right:34%;
+}
+.seven{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:84%;
+    right:42%;
+}
+.eight{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:79%;
+    right:50%;
+}
+.nine{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:75%;
+    right:57%;
+}
+.ten{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:80%;
+    right:63%;
+}
+.leven{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:84%;
+    right:69%;
+}
+.twelve{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:80%;
+    right:74%;
+}
+.thirteen{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:75%;
+    right:80%;
+}
+.fourteen{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:84%;
+    right:87%;
+}
+.fifteen{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:80%;
+    right:94%;
+}
+.sixteen{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:87%;
+    left:90%;
+}
+.seventeen{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    bottom:84%;
+    left:87%;
+}
+.eighteen{
+    height:30%;
+    width:10%;
+    border-radius: 50%;
+    background:radial-gradient(orangered,yellow);
+    position: absolute;
+    bottom:64%;
+    left:65%;
+    box-shadow: 0 0 50px yellow;
+}
+.subcontainer1{
+    height:30%;
+    width:100%;
+    background-color: black;
+    display:inline-block;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+}
+.car{
+    height:100%;
+    width:20%;
+    background-color: red;
+    left: 0%;
+    bottom:30%;
+    position: absolute; 
+    animation-name: one;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.head{
+     height:30%;
+     width:100%;
+     background-color:white;
+     display: flex;  
+     justify-content: center;
+     align-items: center;
+    }
+    .head1{
+        height:100%;
+     width:70%;
+     background-color:rgb(143,5,5);
+     border: 2px solid black;  
+    }
+.carbody1{
+   height:40%;
+   width:100%;
+   border: 2px solid black; 
+}
+.circle{
+    height:30%;
+    width:100%;
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    position: relative;
+}
+.circle1{
+    height:100%;
+    width:25%;
+    background-color: rgb(47, 45, 45);
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40%;
+    left:10%;
+}
+.circle2{
+    height:100%;
+    width:25%;
+    background-color: rgb(47, 45, 45);
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40%;
+    left:60%;
+}
+.innercontainer1{
+    height:10%;
+    width:100%;
+    display: flex;
+    margin-top:10%;
+    position: relative;
+    z-index: 2;
+}
+.first{
+    height:100%;
+    width:5%;
+    background-color: black;
+}
+.second{
+    height:100%;
+    width:5%;
+    background-color: white;
+}
+.third{
+    height:100%;
+    width:5%;
+    background-color: black;
+}
+.fourth{
+    height:100%;
+    width:5%;
+    background-color: white;
+}
+.fifth{
+    height:100%;
+    width:5%;
+    background-color: black;
+}
+.sixth{
+    height:100%;
+    width:5%;
+    background-color: white;
+}
+.seventh{
+    height:100%;
+    width:5%;
+    background-color: black;
+}
+.eighth{
+    height:100%;
+    width:5%;
+    background-color: white;
+}
+.ninth{
+    height:100%;
+    width:5%;
+    background-color: black;
+}
+.tenth{
+    height:100%;
+    width:5%;
+    background-color: white;
+}
+.first1{
+    height:100%;
+    width:5%;
+    background-color: black;
+}
+.second1{
+    height:100%;
+    width:5%;
+    background-color: white;
+}
+.third1{
+    height:100%;
+    width:5%;
+    background-color: black;
+}
+.fourth1{
+    height:100%;
+    width:5%;
+    background-color: white;
+}
+.fifth1{
+    height:100%;
+    width:5%;
+    background-color: black;
+}
+.sixth1{
+    height:100%;
+    width:5%;
+    background-color: white;
+}
+.seventh1{
+    height:100%;
+    width:5%;
+    background-color: black;
+}
+.eighth1{
+    height:100%;
+    width:5%;
+    background-color: white;
+}
+.ninth1{
+    height:100%;
+    width:5%;
+    background-color: black;
+}
+.tenth1{
+    height:100%;
+    width:5%;
+    background-color: white;
+}
+@keyframes one{
+    0%{
+      left:0%;
+    }
+    100%{
+        left:80%;
+    }
+}
+
+
+

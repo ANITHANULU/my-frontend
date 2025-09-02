@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height:200px;
+    width:200px;
+    color:blue;
+    border:2px solid black;
+ transition-property: background-color,height,width,font-size;
+ transition-duration: 1s;
+ transition-timing-function: ease-in;
+ transition-delay: 1s;
+}
+.container:hover{
+   background-color: red;
+   height:300px;
+   width:300px;
+   font-size: 30px;
+}

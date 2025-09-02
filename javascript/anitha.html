@@ -1,0 +1,94 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #282c34;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .player {
+            background: #444;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+        button {
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            background: #61dafb;
+            color: black;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        input[type="range"] {
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <div class="player">
+        <h2 id="song-title">Song Title</h2>
+        <audio id="audio" src="song1.mp3"></audio>
+        <input type="range" id="progress" value="0">
+        <br>
+        <button onclick="prevSong()">&#9665; Prev</button>
+        <button onclick="playPause()">&#9654; Play</button>
+        <button onclick="nextSong()">Next &#9655;</button>
+    </div><script>
+    const songs = ["song1.mp3", "song2.mp3", "song3.mp3"];
+    let currentSongIndex = 0;
+    const audio = document.getElementById("audio");
+    const progress = document.getElementById("progress");
+    const songTitle = document.getElementById("song-title");
+    
+    function loadSong(index) {
+        audio.src = songs[index];
+        songTitle.innerText = songs[index];
+        audio.load();
+    }
+    
+    function playPause() {
+        if (audio.paused) {
+            audio.play();
+            document.querySelector("button[onclick='playPause()']").innerText = "⏸ Pause";
+        } else {
+            audio.pause();
+            document.querySelector("button[onclick='playPause()']").innerText = "▶ Play";
+        }
+    }
+    
+    function nextSong() {
+        currentSongIndex = (currentSongIndex + 1) % songs.length;
+        loadSong(currentSongIndex);
+        audio.play();
+    }
+    
+    function prevSong() {
+        currentSongIndex = (currentSongIndex - 1 + songs.length) % songs.length;
+        loadSong(currentSongIndex);
+        audio.play();
+    }
+    
+    audio.addEventListener("timeupdate", () => {
+        progress.value = (audio.currentTime / audio.duration) * 100;
+    });
+    
+    progress.addEventListener("input", () => {
+        audio.currentTime = (progress.value / 100) * audio.duration;
+    });
+    
+    loadSong(currentSongIndex);
+</script>
+
+</body>
+</html>

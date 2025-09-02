@@ -1,0 +1,83 @@
+.container{
+    height: 100vh;
+    width:100%;
+    background-color: white;
+    display: flex;
+}
+.subcontainer1{
+    height:100vh;
+    width:70%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.innercontainer{
+    height:90vh;
+    width:80%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.innercontainer1{
+    height:10vh;
+    width:30%;
+    background-color: yellow;
+    border-color: white;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 30px;
+}
+.subcontainer2{
+    height:100vh;
+    width:30%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.innercontainer2{
+    height:20vh;
+    width:35%;
+    background-color: red;
+}
+.innercontainer:hover{
+    height:90vh;
+    width:80%;
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.innercontainer1:hover{
+    height:10vh;
+    width:30%;
+    background-color: violet;
+    border-color: white;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 30px;
+    color:blue;
+}
+.innercontainer2:hover{
+    height:20vh;
+    width:35%;
+    background-color:black;
+}
+.innercontainer:has(.innercontainer1:hover){
+    height:90vh;
+    width:80%;
+    background-color:aqua;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+

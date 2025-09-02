@@ -1,0 +1,49 @@
+
+.container{
+display: flex;
+justify-content: space-evenly;
+}
+.one{
+    height: 200px;
+    width:250px;
+    border: 2px solid black;
+    background: radial-gradient(rgb(226, 76, 188),rgb(255, 0, 255),blue,green);
+    /* transform: translateY(30px); */
+}
+.one:hover{
+    transform: translateY(30px);
+}
+.two{
+    height: 200px;
+    width:250px;
+    border: 2px solid black;
+    background: radial-gradient(yellow,rgb(226, 76, 101),blue,green);
+    /* transform:rotate(-30deg); */
+    /* margin-top: 100px; */
+}
+.two:hover{
+    transform:rotate(-30deg);
+     margin-top: 100px; 
+}
+.three{
+    height: 200px;
+    width:250px;
+    border: 2px solid black;
+    background: radial-gradient(yellow,rgb(76, 223, 226),blue,green);
+    /* transform: skew(-30deg); */
+}
+.three:hover{
+    transform: skew(-30deg);
+}
+.four{
+    height: 200px;
+    width:250px;
+    border: 2px solid black;
+    background: radial-gradient(yellow,rgb(0, 123, 105),blue,green);
+    /* transform: scale(2,2);
+    margin-top: 100px; */
+}
+.four:hover{
+    transform: scale(2,2);
+    margin-top: 100px; 
+}

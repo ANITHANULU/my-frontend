@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    background-color: bisque;
+}
+    h1{
+    
+    text-shadow: 3px;
+    text-decoration-color: blue;
+}
+  .first{
+    border:2px solid black;
+   width: 500px;
+   height: 500px;
+   border-radius: 20px;
+   text-shadow: 2px ;
+     
+  } 
+  .Brannd{
+    text-align: center;
+    color: black;
+  
+
+
+  } 
+  .product{
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 0px;
+    color:rgb(7,67,7);
+    background-color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor:pointer;
+    padding:3px;
+
+  }
+  .product2{
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 0px;
+    color:rgb(7,67,7);
+    background-color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor:pointer;
+    padding-left: 3px;
+    
+
+  }

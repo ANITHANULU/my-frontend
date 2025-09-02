@@ -1,0 +1,22 @@
+body{
+    background-image:url(./emoji.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.container{
+    
+    border:2px solid black;
+    height:200px;
+    width:200px;
+    background-image:url(./emoji.jpg);
+    background-repeat: no-repeat;
+    background-size:50% 50%;
+    background-position:left;
+    
+    font-size: 100px;
+    font-weight: 100px;
+    background-clip: text;
+    color:transparent;
+    
+    
+}

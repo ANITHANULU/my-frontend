@@ -1,0 +1,33 @@
+h1{
+    text-align:center;
+}
+.first{
+    font-size: 20px;
+    text-decoration: line-through;
+    text-decoration: dashed;
+    text-decoration-color:blue ;
+}
+.second{
+    font-size: 20px;
+    text-decoration-line:underline;
+    text-decoration-style: dotted;
+    text-decoration-color: blue;
+    text-transform: uppercase;
+}
+.third{
+    font-size:30px;
+    text-decoration: double;
+    text-decoration-style: solid;
+    text-decoration-color: blueviolet;
+    text-transform:lowercase ;
+}
+.four{
+    width:500px;
+    font-size: small;
+    border: 20px;
+    text-align: justify;
+    text-transform: lowercase;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 2px;
+}

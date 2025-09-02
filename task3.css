@@ -1,0 +1,154 @@
+
+body{
+    background-color:grey;
+}
+.first{
+    border:2px solid black;
+    background-color:white;
+    height:450px;
+    width:280px;
+    border-radius:15px; 
+    background-color:darkseagreen; 
+    position:absolute; 
+    left:20px; 
+    box-shadow:4px 4px  black;   
+}
+img{
+    width:90%;
+    padding:10px;
+   
+}
+h4{
+    text-align: center;
+    color: red;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    color:black;
+}
+
+.first:hover{
+    border:2px solid black;
+    background-color:aqua;
+    height:470px;
+    width:300px;
+    border-radius:15px;
+    
+} 
+span{
+        text-align: center;
+        margin-left: 100px;
+        border:2px solid black;
+        color:aqua;
+        background-color:blue;
+        display:inline;
+        
+}  
+.Second{
+    border:2px solid black;
+    background-color:white;
+    height:450px;
+    width:280px;
+    border-radius:15px; 
+    background-color:cadetblue;
+    position:absolute; 
+    left:400px; 
+    box-shadow:4px 4px  black;  
+}
+img{
+    width:90%;
+    padding:10px;  
+}
+h4{
+    text-align: center;
+    color: red;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    color:black;
+}
+
+.Second:hover{
+    border:2px solid black;
+    background-color:aqua;
+    height:470px;
+    width:300px;
+    border-radius:15px;
+    
+} 
+span{
+        text-align: center;
+        margin-left: 100px;
+        border:2px solid black;
+        color:aqua;
+        background-color:blue;
+        display:inline;
+        
+}  
+.third{
+    border:2px solid black;
+    background-color:white;
+    height:450px;
+    width:280px;
+    border-radius:15px; 
+    background-color:darkkhaki;  
+    position:absolute; 
+    left:800px;
+    box-shadow:4px 4px  black;  
+}
+img{
+    width:90%;
+    padding:10px; 
+}
+h4{
+    text-align: center;
+    color: red;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    color:black;
+}
+
+.third:hover{
+    border:2px solid black;
+    background-color:aqua;
+    height:470px;
+    width:300px;
+    border-radius:15px;
+    
+} 
+span{
+        text-align: center;
+        margin-left: 100px;
+        border:2px solid black;
+        color:aqua;
+        background-color:blue;
+        display:inline;
+        
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

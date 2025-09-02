@@ -1,0 +1,40 @@
+a:active{
+    color:brown;
+}
+a:visited{
+    color:chartreuse;
+}
+a:hover{
+    color:darkmagenta;
+}
+a:link{
+    color: crimson;
+}
+p{
+    border:2px solid black;
+    color:brown;
+    background-color: burlywood;
+    display:inline;
+}
+
+p:hover{
+    font-size:50px;
+    font-weight: 50px;
+    background-color:chartreuse;
+    border:2px solid blue;
+    border-radius: 30px;
+}
+.second{
+    border:2px solid blue;
+    height:100px;
+    width:100px;
+    background-color: rgb(87, 196, 240);
+}
+.second:hover{
+    border:2px dotted green;
+    height:300px;
+    width:300px;
+    background-color: greenyellow;
+    border-radius: 150px;
+}
+

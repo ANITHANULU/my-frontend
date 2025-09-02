@@ -1,0 +1,54 @@
+<!-- <html>
+    <head>
+        <title>counter1</title>
+    </head>
+    <body>
+        <p>0</p>
+        <button onclick="myfun()">increment</button>
+        <button onclick="myfun()">decrement</button>
+        <button onclick="myfun()">reset</button>
+        <script src="./counter1.js"></script>
+    </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Program</title>
+</head>
+<body>
+
+    <p id="counter">0</p>
+    <button onclick="updateCounter('increment')">Increment</button>
+    <button onclick="updateCounter('decrement')">Decrement</button>
+    <button onclick="updateCounter('reset')">Reset</button>
+
+    <script>
+        let count = 0;
+        let mypara = document.getElementById("counter");
+
+        function updateCounter(action) {
+            if (action === "increment") {
+                if (count < 20) {
+                    count++;
+                } else {
+                    alert("Exceeding limit!");
+                }
+            } else if (action === "decrement") {
+                if (count > 0) {
+                    count--;
+                } else {
+                    alert("Cannot go below zero!");
+                }
+            } else if (action === "reset") {
+                count = 0;
+            }
+            mypara.textContent = count;
+        }
+    </script>
+
+</body>
+</html>

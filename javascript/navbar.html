@@ -1,0 +1,149 @@
+<!-- <html>
+    <head>
+        <title>My Page</title>
+        <style>
+            body{
+                height:100%;
+                width:100%;
+            }
+            .navbar{
+                height:10%;
+                width:100%;
+                display: flex;
+            }
+            #about{
+                height:100%;
+                width:33%;
+                border: 2px solid black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+            }
+            #report{
+                height:100%;
+                width:33%;
+                border: 2px solid black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+            }
+            #contents{
+                height:100%;
+                width:33%;
+                border: 2px solid black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+            }
+            .aboutpara{
+                height:30%;
+                width:100%;
+                border: 2px solid black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .reportpara{
+                height:30%;
+                width:100%;
+                border: 2px solid black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .contentspara{
+            height:30%;
+                width:100%;
+                border: 2px solid black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+        <div id="about" onclick="fun()">about</div>
+        <div id="report" onclick="fun1()">Reports</div>
+        <div id="contents" onclick="fun2()">Contents</div></div>
+        <div class="aboutpara">
+            Owl Coder is our flagship program designed to elevate participants' programming expertise and mastery in key areas such as system design, data structures and algorithms, problem-solving, aptitude, reasoning, and communication skills. Over the past three years, this program has consistently delivered outstanding results, empowering participants to secure positions at prestigious companies.
+        </div>
+        <div class="reportpara">Founded back on the 3rd of February 2016, our journey has been quite an adventurously successful one. Over time our team has taken up commercial and social projects and developed apps, games, softwares, websites and a whole lot more. Our experienced developers are certified in an array of languages and can handle anything that comes their way.</div>
+        <div class="contentspara">At Technical Hub, we prioritize excellence in training, offering certification-aligned programs in collaboration with industry-leading vendors. Our tranees benefit from hands-on learning experiences, receiving constant exposure to practical examples across a spectrum of topics. This approach ensures they remain at the forefront of the ever-evolving technological landscape, equipped with the skills and knowledge necessary to excel in their fields.</div>
+        <script src="./navbar.js"></script></div>
+    </body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .navbar {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            background-color: lightgray;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        .navbar div {
+            cursor: pointer;
+            padding: 10px 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background: white;
+        }
+        .section {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div id="aboutBtn">About</div>
+        <div id="reportBtn">Reports</div>
+        <div id="contentsBtn">Contents</div>
+    </div>
+    
+    <div id="about" class="section">About: Owl Coder is our flagship program...</div>
+    <div id="report" class="section">Reports: Founded on February 3rd, 2016...</div>
+    <div id="contents" class="section">Contents: At Technical Hub, we prioritize excellence...</div>
+    
+    <script>
+        document.getElementById("aboutBtn").addEventListener("click", function() {
+            document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+        });
+        
+        document.getElementById("reportBtn").addEventListener("click", function() {
+            document.getElementById("report").scrollIntoView({ behavior: "smooth" });
+        });
+        
+        document.getElementById("contentsBtn").addEventListener("click", function() {
+            document.getElementById("contents").scrollIntoView({ behavior: "smooth" });
+        });
+    </script>
+</body>
+</html>

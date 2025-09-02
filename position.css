@@ -1,0 +1,40 @@
+.static{
+    border:2px solid black;
+    position: static;
+}
+.relative{
+    border:3px solid red;
+    border-style:dotted;
+    position:relative;
+    border-inline-start-color:black;
+    border-block-end-color: black;
+    
+}
+.fixed{
+    border:3px solid rgb(249, 7, 185);
+    position: fixed;
+}
+.sticky{
+    border:3px solid blue;
+    background-color: antiquewhite;
+    position: sticky;
+    top:0;
+}
+.absoluteclass{
+     position: relative;
+     border:3px solid rgb(6, 71, 250);
+     margin-right:  40px;
+     background-color: rgb(100, 239, 239);
+     border-style:dashed;
+     border-inline-end-color: brown;
+     padding-right: 20px;
+     height:200px;
+     width:200px;    
+}
+.absolute{
+    border:3px solid black;
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+

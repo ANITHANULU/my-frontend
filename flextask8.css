@@ -1,0 +1,201 @@
+.container{
+    height:100vh;
+    width:100%;
+}
+.subcontainer{
+    height:50vh;
+    width:100%;
+    background-color: aqua;
+    display:flex;
+    flex-direction: row;
+}
+.innercontainer{
+    height:50vh;
+    width:50%;
+    background-color: aquamarine;
+}
+.innercontainer2{
+    height:13vh;
+    width:100%;
+    background-color: bisque;
+    display:flex;
+    flex-direction: row;
+}
+.one{
+    height: 13vh;
+    width:50%;
+    background-color: grey;
+}
+.two{
+    height:13vh;
+    width:50%;
+    background-color:orange ;
+}
+.three{
+    height:12vh;
+    width:100%;
+    background-color:rgb(255, 0, 183);
+}
+.four{
+    height:13vh;
+    width:100%;
+    background-color:mediumseagreen;
+}
+.five{
+    height:12vh;
+    width:100%;
+    background-color:bisque;
+}
+.innercontainer3{
+    height:50vh;
+    width:50%;
+    background-color:cornflowerblue;
+}
+.six{
+    height:13vh;
+    width:100%;
+    background-color:greenyellow;
+}
+.seven{
+    height:12vh;
+    width:100%;
+    background-color:darkgreen;
+}
+.innercontainer4{
+    height:25vh;
+    width:100%;
+    background-color: deeppink;
+    display:flex;
+    flex-direction: row;
+}
+.eight{
+    height:25vh;
+    width:50%;
+    background-color:aqua;
+}
+.nine{
+    height:25vh;
+    width:50%;
+    background-color:red;
+}
+.subcontainer2{
+    height:50vh;
+    width:100%;
+    background-color: aqua;
+    display:flex;
+    flex-direction: row;
+}
+.innercontainer5{
+    height:50vh;
+    width:50%;
+    background-color: aquamarine;
+}
+.innercontainer6{
+    height:25vh;
+    width:100%;
+    background-color:blue;
+    display:flex;
+    flex-direction: row;
+}
+.ten{
+    height:25vh;
+    width:50%;
+    background-color: orange;
+}
+.leven{
+    height:25vh;
+    width:50%;
+    background-color:red;
+}
+.innercontainer7{
+    height:25vh;
+    width:100%;
+    background-color:blue;
+    display:flex;
+    flex-direction: row;
+}
+.twelve{
+    height:25vh;
+    width:25%;
+    background-color: grey;
+}
+.thirteen{
+    height:25vh;
+    width:25%;
+    background-color:black;
+}
+.fourteen{
+    height:25vh;
+    width:25%;
+    background-color: grey;
+}
+.fifteen{
+    height:25vh;
+    width:25%;
+    background-color:black;
+}
+.innercontainer8{
+    height:50vh;
+    width:50%;
+    background-color:blue;
+}
+.innercontainer9{
+    height:25vh;
+    width:100%;
+    background-color:aqua;
+    display:flex;
+    flex-direction: row;
+}
+.sixteen{
+    height:25vh;
+    width:25%;
+    background-color: darkorange;
+}
+.seventeen{
+    height:25vh;
+    width:25%;
+    background-color:black;
+}
+.eighteen{
+    height:25vh;
+    width:25%;
+    background-color:greenyellow;
+}
+.nineteen{
+    height:25vh;
+    width:25%;
+    background-color: darkred;
+}
+.innercontainer10{
+    height:25vh;
+    width:100%;
+    background-color:blue;
+    display:flex;
+    flex-direction: row;
+}
+.twenty{
+    height:25vh;
+    width:50%;
+    background-color:aqua;
+}
+.innercontainer11{
+    height:25vh;
+    width:50%;
+    background-color:red;
+}
+.twentyone{
+    height:13vh;
+    width:100%;
+    background-color: black;
+}
+.twentytwo{
+    height:13vh;
+    width:100%;
+    background-color:cornflowerblue;
+}
+
+
+
+
+
+

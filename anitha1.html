@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holi Festival</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #ff4081, #ff9100, #ffeb3b, #4caf50, #3f51b5);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            margin-top: 50px;
+            color: white;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .colors {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .color-splash {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            position: relative;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            animation: splash 2s infinite alternate;
+        }
+
+        .color-splash:nth-child(1) { background-color: #ff4081; }
+        .color-splash:nth-child(2) { background-color: #ff9100; }
+        .color-splash:nth-child(3) { background-color: #ffeb3b; }
+        .color-splash:nth-child(4) { background-color: #4caf50; }
+        .color-splash:nth-child(5) { background-color: #3f51b5; }
+
+        @keyframes splash {
+            from { transform: scale(1); }
+            to { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Holi! 🌸🎨</h1>
+        <p>Celebrate colors, joy, and togetherness.</p>
+        <div class="colors">
+            <div class="color-splash"></div>
+            <div class="color-splash"></div>
+            <div class="color-splash"></div>
+            <div class="color-splash"></div>
+            <div class="color-splash"></div>
+        </div>
+    </div>
+</body>
+</html>
